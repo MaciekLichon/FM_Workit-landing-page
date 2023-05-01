@@ -1,0 +1,25 @@
+/* COLORS */
+/* TYPE */
+.nav {
+  background-color: #24053d;
+  padding-top: 2rem;
+}
+
+.nav__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  line-height: 2;
+  transition: color 0.3s;
+}
+
+.nav__link:hover {
+  color: #42ffa1;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3MvdmFyaWFibGVzLnNjc3MiLCIuLi9zYXNzL25hdmJhci5zY3NzIiwibmF2YmFyLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQSxXQUFBO0FBT0EsU0FBQTtBQ05BO0VBQ0UseUJERThCO0VDRDlCLGlCQUFpQjtBQ0NuQjs7QURDRTtFQUNFLGFBQWE7RUFDYiw4QkFBOEI7RUFDOUIsbUJBQW1CO0FDRXZCOztBRENFO0VBQ0UscUJBQXFCO0VBQ3JCLFlEWjBCO0VDYTFCLGdCRERVO0VDRVYsY0FBYztFQUNkLHNCQUFzQjtBQ0UxQjs7QURQRztFQVFHLGNEZDhCO0FFaUJwQyIsImZpbGUiOiJuYXZiYXIuY3NzIn0= */

@@ -1,0 +1,101 @@
+@import './variables.scss';
+
+.founder {
+  text-align: center;
+  padding-top: 3.125rem;
+
+  @media (min-width: $tablet) {
+    padding-top: 0;
+    max-width: 800px;
+  }
+
+  @media (min-width: $desktop) {
+    margin-top: 6.875rem;
+    margin-bottom: 3.875rem;
+    max-width: 1114px;
+  }
+
+  &__photo {
+    height: 281px;
+    width: 281px;
+    margin: 0 auto;
+    z-index: 0;
+    transform: translateY(50px);
+
+    @media (min-width: $tablet) {
+      margin: 0;
+      transform: translateY(100px);
+    }
+
+    @media (min-width: $desktop) {
+      transform: none;
+      height: 477px;
+      width: 477px;
+    }
+  }
+
+  &__content {
+    position: relative;
+    padding: 2rem;
+    background: $clr-500;
+    color: $clr-100;
+    z-index: 1;
+
+    @media (min-width: $tablet) {
+      width: 514px;
+      margin-right: 0;
+      margin-left: auto;
+      text-align: left;
+      padding: 3rem 3.5rem 3.5rem 3.5rem;
+      transform: translateY(-30px);
+    }
+
+    @media (min-width: $desktop) {
+      width: 730px;
+      padding: 4rem;
+      transform: none;
+      margin-top: -300px;
+    }
+
+    &::after {
+      @media (min-width: $tablet) {
+        content: url('../assets/images/bg-pattern-3.svg');
+        position: absolute;
+        bottom: -115px;
+        right: 10px;
+        z-index: 2;
+      }
+      @media (min-width: $desktop) {
+        bottom: -70px;
+        right: 70px;
+      }
+    }
+  }
+
+  &__title {
+    color: $clr-100;
+    margin-bottom: 1rem;
+    font-size: $fs-mobile-subheader-big;
+
+    @media (min-width: $tablet) {
+      font-size: $fs-tablet-subheader-big;
+      letter-spacing: -1px;
+      line-height: 1.17;
+      margin-bottom: 1.5rem;
+    }
+    @media (min-width: $desktop) {
+      font-size: $fs-desktop-subheader-big;
+      line-height: 1.17;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__text {
+    margin-bottom: 1.5rem;
+
+    @media (min-width: $desktop) {
+      margin-bottom: 2rem;
+    }
+  }
+
+}

@@ -1,0 +1,24 @@
+@import './variables.scss';
+
+.nav {
+  background-color: $clr-500;
+  padding-top: 2rem;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $clr-100;
+    font-weight: $fw-heavy;
+    line-height: 2;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $clr-accent;
+    }
+  }
+}

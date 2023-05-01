@@ -1,0 +1,59 @@
+@import './variables.scss';
+
+body {
+  font-family: $ff-regular;
+  font-weight: $fw-regular;
+  font-size: $fs-regular;
+  color: $clr-300;
+
+  @media (min-width: $tablet) {
+    font-size: $fs-desktop-regular;
+  }
+}
+
+h1, h2, h3 {
+  font-family: $ff-header;
+  font-weight: $fw-bold;
+  color: $clr-500;
+}
+
+.container {
+  max-width: 1114px;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  @media (min-width: $tablet) {
+    padding: 0 2.5rem;
+  }
+
+  @media (min-width: $desktop) {
+    padding: 0;
+  }
+}
+
+.underlined {
+  border-bottom: 3px solid $clr-accent;
+}
+
+.button {
+  box-sizing: border-box;
+  font-size: 1rem;
+  line-height: 2;
+  padding: 0.75rem 1.5rem;
+  background-color: $clr-accent;
+  color: $clr-500;
+  font-weight: $fw-heavy;
+  border: 2px solid $clr-accent;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  @media (min-width: $desktop) {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+
+  &:hover {
+    background-color: transparent;
+    color: $clr-accent;
+  }
+}

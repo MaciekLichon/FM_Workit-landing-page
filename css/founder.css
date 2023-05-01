@@ -1,0 +1,123 @@
+/* COLORS */
+/* TYPE */
+.founder {
+  text-align: center;
+  padding-top: 3.125rem;
+}
+
+@media (min-width: 768px) {
+  .founder {
+    padding-top: 0;
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .founder {
+    margin-top: 6.875rem;
+    margin-bottom: 3.875rem;
+    max-width: 1114px;
+  }
+}
+
+.founder__photo {
+  height: 281px;
+  width: 281px;
+  margin: 0 auto;
+  z-index: 0;
+  transform: translateY(50px);
+}
+
+@media (min-width: 768px) {
+  .founder__photo {
+    margin: 0;
+    transform: translateY(100px);
+  }
+}
+
+@media (min-width: 1440px) {
+  .founder__photo {
+    transform: none;
+    height: 477px;
+    width: 477px;
+  }
+}
+
+.founder__content {
+  position: relative;
+  padding: 2rem;
+  background: #24053d;
+  color: white;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .founder__content {
+    width: 514px;
+    margin-right: 0;
+    margin-left: auto;
+    text-align: left;
+    padding: 3rem 3.5rem 3.5rem 3.5rem;
+    transform: translateY(-30px);
+  }
+}
+
+@media (min-width: 1440px) {
+  .founder__content {
+    width: 730px;
+    padding: 4rem;
+    transform: none;
+    margin-top: -300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .founder__content::after {
+    content: url("../assets/images/bg-pattern-3.svg");
+    position: absolute;
+    bottom: -115px;
+    right: 10px;
+    z-index: 2;
+  }
+}
+
+@media (min-width: 1440px) {
+  .founder__content::after {
+    bottom: -70px;
+    right: 70px;
+  }
+}
+
+.founder__title {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  .founder__title {
+    font-size: 3rem;
+    letter-spacing: -1px;
+    line-height: 1.17;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .founder__title {
+    font-size: 3.5rem;
+    line-height: 1.17;
+    margin-bottom: 2rem;
+  }
+}
+
+.founder__text {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1440px) {
+  .founder__text {
+    margin-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3MvdmFyaWFibGVzLnNjc3MiLCIuLi9zYXNzL2ZvdW5kZXIuc2NzcyIsImZvdW5kZXIuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBLFdBQUE7QUFPQSxTQUFBO0FDTkE7RUFDRSxrQkFBa0I7RUFDbEIscUJBQXFCO0FDQ3ZCOztBRENFO0VBSkY7SUFLSSxjQUFjO0lBQ2QsZ0JBQWdCO0VDR2xCO0FBQ0Y7O0FEREU7RUFURjtJQVVJLG9CQUFvQjtJQUNwQix1QkFBdUI7SUFDdkIsaUJBQWlCO0VDS25CO0FBQ0Y7O0FESEU7RUFDRSxhQUFhO0VBQ2IsWUFBWTtFQUNaLGNBQWM7RUFDZCxVQUFVO0VBQ1YsMkJBQTJCO0FDTS9COztBREpJO0VBUEY7SUFRSSxTQUFTO0lBQ1QsNEJBQTRCO0VDUWhDO0FBQ0Y7O0FETkk7RUFaRjtJQWFJLGVBQWU7SUFDZixhQUFhO0lBQ2IsWUFBWTtFQ1VoQjtBQUNGOztBRFBFO0VBQ0Usa0JBQWtCO0VBQ2xCLGFBQWE7RUFDYixtQkRsQzRCO0VDbUM1QixZRHRDMEI7RUN1QzFCLFVBQVU7QUNVZDs7QURSSTtFQVBGO0lBUUksWUFBWTtJQUNaLGVBQWU7SUFDZixpQkFBaUI7SUFDakIsZ0JBQWdCO0lBQ2hCLGtDQUFrQztJQUNsQyw0QkFBNEI7RUNZaEM7QUFDRjs7QURWSTtFQWhCRjtJQWlCSSxZQUFZO0lBQ1osYUFBYTtJQUNiLGVBQWU7SUFDZixrQkFBa0I7RUNjdEI7QUFDRjs7QURYTTtFQXhCSDtJQXlCSyxpREFBaUQ7SUFDakQsa0JBQWtCO0lBQ2xCLGNBQWM7SUFDZCxXQUFXO0lBQ1gsVUFBVTtFQ2VoQjtBQUNGOztBRGRNO0VBL0JIO0lBZ0NLLGFBQWE7SUFDYixXQUFXO0VDa0JqQjtBQUNGOztBRGRFO0VBQ0UsWUR6RTBCO0VDMEUxQixtQkFBbUI7RUFDbkIsZUR4RDBCO0FFeUU5Qjs7QURmSTtFQUxGO0lBTUksZUR4RHdCO0lDeUR4QixvQkFBb0I7SUFDcEIsaUJBQWlCO0lBQ2pCLHFCQUFxQjtFQ21CekI7QUFDRjs7QURsQkk7RUFYRjtJQVlJLGlCRDNEMkI7SUM0RDNCLGlCQUFpQjtJQUNqQixtQkFBbUI7RUNzQnZCO0FBQ0Y7O0FEbkJFO0VBQ0UscUJBQXFCO0FDc0J6Qjs7QURwQkk7RUFIRjtJQUlJLG1CQUFtQjtFQ3dCdkI7QUFDRiIsImZpbGUiOiJmb3VuZGVyLmNzcyJ9 */
